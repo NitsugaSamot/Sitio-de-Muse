@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+.nav-bar{
+    background-color:black;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    height: 5em;
+    width: 100%;
+}
+header .nav-bar .titulo h1{
+    color:white;
+    font-size: 3.5em;
+    margin-left: 10px;
+}
+header .nav-bar .links ul  {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.container{
+    width: 100%;
+}
+
+.container .disco-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: calc(100vh - 5em - 4em); 
+}
+
+.container .disco-container div{
+    cursor: pointer;
+}
+                                     
+.container .disco-container .col1{
+    background-image: url('portadas de muse/wallpapershowbitz0.jpg')
+}
+.container .disco-container .col2 {
+    background-image: url('portadas de muse/wallpapersymetri.jpg');
+}
+.container .disco-container .col3 {
+    background-image: url('portadas de muse/apocalipsisnow.png');
+}
+.container .disco-container .col4 {
+    background-image: url('portadas de muse/wallpaperblakholes.jpg');
+}
+.container .disco-container .col5 {
+    background-image: url('portadas de muse/wallpaperharp0.jpg');
+}
+.container .disco-container .col6 {
+    background-image: url('portadas de muse/wallpaperresistance0.jpg');
+}
+.container .disco-container .col7 {
+    background-image: url('portadas de muse/the-2nd-law.jpg');
+}
+.container .disco-container .col8 {
+    background-image: url('portadas de muse/olympicstadium.jpg');
+}
+.container .disco-container .col9 {
+    background-image: url('portadas de muse/wallpaperdrones4.jpg.png');
+}
+.container .disco-container .col10 {
+    background-image: url('portadas de muse/wallpaperteorysimulation00.jpg');
+}
+
+.post1:hover{
+    background-color: white;
+}
+
+
+/* .carousel-item:hover ~ .carousel-item{
+    transform: traslate3d(100px, 0, 0);
+} */
+
+footer {
+    width: 100%;
+    height: 4em;
+    background-color: black;
+}
+footer .footer{
+    color: white;
+    text-align: center;
+}
+
+footer .footer p{
+    font-size: 10px;
+}
+
+footer .footer img{
+    width: 5em;
+    justify-content: center;
+}
+
+/* @media screen (max-width: 992px) {
+
+} */
+/* @media screen and (max-width: 768px) {
+    .container .disco-container {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap; 
+    }
+    
+} */
+ @media screen and (max-width: 576px) {
+     .container .disco-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+} 
+
